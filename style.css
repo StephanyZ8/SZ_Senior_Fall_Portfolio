@@ -1,0 +1,198 @@
+body{
+  background-color:#fff0f5
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly; 
+  
+}
+
+.container > a {
+  background-color: #ff69b4;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+/* NAV BAR */
+.navbar {
+  display: flex;
+  justify-content: center; 
+  overflow: hidden;
+  background-color: lavenderblush;
+}
+
+.navbar > a:link {
+  padding-left:20px;
+  padding-right:20px;
+  padding-top: 7.5px;
+  padding-bottom: 5px;
+  
+  margin-left:20px;
+  margin-right:20px;
+  margin-top: 2.5px;
+  margin-bottom: 5px;
+  
+  border-radius: 20px;
+  
+  font-size: 20px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  
+  background-color: #fff0f5;
+  color:#ff69b4;
+
+  transition: background-color 1s, color 0.5s;
+}
+.navbar > a:visited {
+  color:#ff69b4
+}
+.navbar > a:hover {
+  color:#fff0f5;
+  background-color: #ff389c
+}
+.navbar > a:active {
+  color:#ff69b4;
+  background-color: #fff0f5;
+  border: solid;
+  border-color: #ff69b4;
+  padding-top: 5px;
+  bottom-padding: 5px;
+}
+
+#current-tab {
+  color:#ff69b4;
+  background-color: #fff0f5;
+  border: solid;
+  border-color: #ff389c;
+  padding-top: 5px;
+  bottom-padding: 5px;
+}
+
+/* CONTACTS */
+
+.link-card {
+  display: flex;
+  height: 95px;
+  margin-bottom: 18px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px #0002;
+}
+
+.card-content {
+  width: 45%;
+  padding: 15px;
+  background: white;
+  border-radius: 0 35px 35px 0;
+  z-index: 1;
+}
+
+.card-content h2 {
+  color: #d995aa;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.card-content p {
+  color: #cda1b0;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.card-image {
+  flex: 1;
+  background: #e9dce3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b98fa0;
+}
+
+
+.home-main-card{
+  display: flex;
+  align-items: center;
+  background: #ff0080;
+  background: linear-gradient(180deg, rgba(255, 0, 128, 1) 0%, rgb(255, 181, 218, 1) 100%);
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 35px;
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.home-main-card > div > h1{
+  font-size: 72px;
+  padding-top: 60px;
+  font-variant: small-caps;
+  font-weight: 900;
+  letter-spacing: 4px;
+  color:lavenderblush;
+  text-shadow: 2px 2px #ff0d86;
+}
+
+.home-main-card > div > p{
+  padding-bottom: 140px;
+}
+
+
+.events-section > div{
+  
+}
+
+.events-section > h2{
+  margin:60px;
+  color: #ff389c
+}
+
+.flex-row{
+  display: flex;
+  justify-content: row;
+  margin: 20px;
+}
+
+
+.small-1-photo-card{
+  width:230px;
+  height:360px;
+  background-color: white;
+  border-radius: 35px;
+  margin:15px;
+}
+
+.taehs-logo{
+  width: 240px;
+  margin-left: 40px;
+}
+
+.work-banner{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 180px;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(255, 0, 128, 1) 0%, rgb(255, 102, 176, 1) 100%);
+  margin: 35px;
+  border-radius: 35px;
+  color:white
+}
+
+/* Entries */
+
+.entries-container{
+
+}
+
+.entries-container > div{
+  display:flex;
+  align-items: center;
+}
